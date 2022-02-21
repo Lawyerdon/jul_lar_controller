@@ -8,10 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Task extends Model
 {
     protected $fillable = ['name'];
-
-    public function user(){
-        $this->belongsTo(User::class);
-    }
 }
 
-
+public function user(){
+    $this->belongsTo(User::class);
+}
