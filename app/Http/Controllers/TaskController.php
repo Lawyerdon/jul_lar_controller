@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use Illuminate\Support\Facades\Auth;
 
-class TaskController extends Controller
+class  TaskController extends Controller
 {
     /**
      * Display a listing of the resource.
